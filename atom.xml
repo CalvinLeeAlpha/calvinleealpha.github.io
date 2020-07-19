@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://LiChun666.github.io</id>
     <title>Gridea</title>
-    <updated>2020-07-19T15:08:49.159Z</updated>
+    <updated>2020-07-19T15:13:22.728Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://LiChun666.github.io"/>
     <link rel="self" href="https://LiChun666.github.io/atom.xml"/>
@@ -10,17 +10,6 @@
     <logo>https://LiChun666.github.io/images/avatar.png</logo>
     <icon>https://LiChun666.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
-    <entry>
-        <title type="html"><![CDATA[✌✌终于成为blogger了！]]></title>
-        <id>https://LiChun666.github.io/post/zhong-yu-cheng-wei-blogger-liao/</id>
-        <link href="https://LiChun666.github.io/post/zhong-yu-cheng-wei-blogger-liao/">
-        </link>
-        <updated>2020-07-13T09:55:59.000Z</updated>
-        <content type="html"><![CDATA[<p>今天，2020年7月13日，花了大半天功夫搭建了自己的博客。虽然一些设置还没有弄好，但我已经迫不及待写下自己的第一篇博文了。</p>
-<p>关于第一篇博文——我想介绍的是自己开通博客的原因以及今后博客的一些内容。</p>
-<p>作为一名计算机科学与技术专业的学生，早就听很多学长学姐说过写博客的重要性，拖了这么久才行动，实在有些愧疚。</p>
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://LiChun666.github.io/post/hello-gridea/</id>
