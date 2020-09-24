@@ -16,11 +16,19 @@ function getCSS()
         datetoday.setTime(timenow);
         thehour = datetoday.getHours();
 
+        if (thehour<6)
+
             display = "https://XscapeC.github.io/media/css/night.css";
 
+       else if (thehour>22)
+
             display = "https://XscapeC.github.io/media/css/night.css";   
-      
+
+        else if (thehour>6)
+           
             display = "https://XscapeC.github.io/media/css/day.css";
+
+        else if (thehour<22)
 
             display = "https://XscapeC.github.io/media/css/day.css";
       
