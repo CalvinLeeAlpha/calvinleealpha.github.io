@@ -1,16 +1,29 @@
-  <h2 class="year"># 搜索</h2>
-    <% posts.forEach(function(post) { %>
-      <article class="item default grid-33 tablet-grid-50 np-mobile">
-        <a href="<%= post.link %>" class="thumb hover-effect">
-          <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('<% if (post.feature) { %><%= post.feature %><% } else { %><%= customConfig.featureImage %><%} %>');"></span>
-        </a>
-        <div class="info gradient-effect">
-          <time datetime="<%= post.dateFormat %>"><%= post.dateFormat %></time>
-          <h4 class="title usmall">
-            <a href="<%= post.link %>"><%= post.title %></a>
-          </h4>
-        </div>
-      </article>
-
-    <% }); %>
-    <div class="clear"></div>
+<div id="content" class="container">
+	<div class="row">
+		<div class="col-md-8 site-main">
+			<% posts.forEach(function(post) { %>
+			<article
+				class="wow zoomIn post post-index  post-318 type-post status-publish format-standard hentry category-uncategorized tag-40 tag-39">
+				<% if (themeConfig.showFeatureImage && post.feature) { %>
+				<a href="<%= post.link %>">
+					<div class="posttou" style="background-image:url(<%= post.feature %>)"></div>
+				</a>
+				<% } %>
+				<div class="entry-content">
+					<h1 class="entry-title"><a href="<%= post.link %>" rel="bookmark"><%= post.title %></a></h1>
+					<div class="entry-meta">
+						<i class="iconfont icon-rili"> <time class="lately-a" datetime="<%= post.date %>"
+								itemprop="datePublished" pubdate=""><%= post.dateFormat %></time></i>
+					</div>
+					<div class="entry-summary jia">
+						<%- post.searchedPreview %>
+						<p class="readmore">
+							<a href="<%= post.link %>" class="link-more">Read more</a>
+						</p>
+					</div>
+				</div>
+			</article>
+			<% }); %>
+		</div>
+	</div>
+</div>
