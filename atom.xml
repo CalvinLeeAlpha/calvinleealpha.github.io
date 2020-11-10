@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://XscapeC.github.io</id>
     <title>Xscape</title>
-    <updated>2020-11-03T14:07:13.062Z</updated>
+    <updated>2020-11-10T16:53:28.568Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://XscapeC.github.io"/>
     <link rel="self" href="https://XscapeC.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://XscapeC.github.io/images/avatar.png</logo>
     <icon>https://XscapeC.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Xscape</rights>
+    <entry>
+        <title type="html"><![CDATA[每一天，都要无愧于心]]></title>
+        <id>https://XscapeC.github.io/post/mei-yi-tian-du-yao-wu-kui-yu-xin/</id>
+        <link href="https://XscapeC.github.io/post/mei-yi-tian-du-yao-wu-kui-yu-xin/">
+        </link>
+        <updated>2020-11-10T16:52:19.000Z</updated>
+        <content type="html"><![CDATA[<p>11.11,man in the mirror.</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://XscapeC.github.io/post/hello-gridea/</id>
