@@ -17,11 +17,19 @@ function getCSS()
         datetoday.setTime(timenow);
         thehour = datetoday.getHours();
 
+        if (thehour<6)
+
             display = "https://XscapeC.github.io/media/css/night.css";
 
+       else if (thehour>22)
+
             display = "https://XscapeC.github.io/media/css/night.css";   
-      
+
+        else if (thehour>6)
+           
             display = "https://XscapeC.github.io/media/css/day.css";
+
+        else if (thehour<22)
 
             display = "https://XscapeC.github.io/media/css/day.css";
       
@@ -165,7 +173,11 @@ window.onload=getCSS();
 	<div class="wow rollIn author-info" style="visibility: visible; animation-name: rollIn;">
 	<div class="author-avatar pull-left"><img src="https://XscapeC.github.io/images/avatar.png" ></div>
  
+	<div class="author-description"><div class="author-title"><div class="author-link" rel="author">Xscape</div></div>
 
+
+	<p class="author-bio">Xscape from ordinary</p></div></div>
+	
 		</div>
 		
  
