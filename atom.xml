@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://XscapeC.github.io</id>
     <title>Xscape</title>
-    <updated>2020-11-16T14:19:25.662Z</updated>
+    <updated>2020-11-16T14:22:24.908Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://XscapeC.github.io"/>
     <link rel="self" href="https://XscapeC.github.io/atom.xml"/>
@@ -22,7 +22,13 @@
 <!-- more -->
 <div class="tvcontainer">
 <iframe class="tv"                         src="https://player.bilibili.com/player.html?cid=145147963&aid=84267566&page=1&as_wide=1&high_quality=1&danmaku=0"frameborder="no" scrolling="no"></iframe>
-</div>]]></content>
+</div>
+<!-- more -->
+https://www.bilibili.com/video/BV1gf4y197hS/
+<!-- more -->
+<iframe  class="music" frameborder="no" src="//music.163.com/outchain/player?type=1&id=89680147&auto=0&height=90"></iframe>
+<!-- more -->
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[C++学习<第一章：C++的基础知识>]]></title>
@@ -60,8 +66,6 @@
         <content type="html"><![CDATA[<blockquote>
 <p>Once you've been through tough times, you can only become stronger.</p>
 </blockquote>
-<!-- more -->
-<iframe  class="music" frameborder="no" src="//music.163.com/outchain/player?type=1&id=39224651&auto=0&height=90"></iframe>
 <!-- more -->
 <p>11.11.<br>
 Man in the mirror.</p>
